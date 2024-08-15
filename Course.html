@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<HTML lang="en">
+    <head>
+        <title>CatPlan</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!--alamak komen-->
+            <p>Click here to see more <a href="https://unsplash.com/wallpapers/cute/kitten" 
+                target="_blank">Cat Photos</a>.</p>
+            
+            <a href="#"><img src="Kitten on a basket resized.jpg" 
+                alt="4 kittens on a picnic basket"></a>
+                
+            <h3>Cat list</h3>
+            <div class="list">
+                <p>things cats <em>love</em></p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser</li>
+                    <li>world destruction</li>
+                </ul>
+                <p>things cat <strong>hate</strong></p>
+                <ol>
+                    <li>human</li>
+                    <li>world peace</li>
+                    <li>taxes</li>
+                </ol>
+            </div>
+            <form action="/submit-cat">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> indoor </label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> outdoor </label>
+                <br>
+
+                <label for="serial-killer"><input id="serial-killer" 
+                type="checkbox" name="role">serial killer</label>
+                <br>
+                <label for="biscuit"><input id="biscuit" 
+                type="checkbox" name="role">biscuit</label>
+                <br>
+                <label for="fuhrer"><input id="fuhrer" 
+                type="checkbox" name="role" checked><strong>fuhrer</strong></label>
+                <br>
+
+                <input type="text" placeholder="cat URL" required>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>They Aim For <a href="#">World Domination</small>
+            </a></p>
+        </footer>
+    </body>
+</HTML>
